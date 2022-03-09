@@ -13,13 +13,13 @@ public class RawgDTO implements Serializable {
     private Integer count;
     private String next;
     private String previous;
-    private Game[] results;
+    private GameDTO[] results;
 
     public RawgDTO() {
 
     }
 
-    public RawgDTO(Integer count, String next, String previous, Game[] results) {
+    public RawgDTO(Integer count, String next, String previous, GameDTO[] results) {
         this.count = count;
         this.next = next;
         this.previous = previous;

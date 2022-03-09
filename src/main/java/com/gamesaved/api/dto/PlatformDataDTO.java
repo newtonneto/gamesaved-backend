@@ -7,7 +7,8 @@ import java.io.Serializable;
 
 @Getter
 @Setter
-public class PlatformDTO implements Serializable {
+public class PlatformDataDTO implements Serializable {
     private static final long serialVersionUID = 1L;
-    private PlatformDataDTO platform;
+    private Integer id;
+    private String name;
 }
